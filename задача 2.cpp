@@ -6,8 +6,8 @@ int main()
     std::string n2;
     std::cin >> n1 >> n2;
     const int N = 1000;
-    int mas1[N];
-    int mas2[N];
+    int mas1[N] = {0};
+    int mas2[N] = {0};
     for (int i = 0; i < size(n1); i++)
         mas1[i] = (int)n1[i] - 48;
     for (int i = 0; i < size(n2); i++)
