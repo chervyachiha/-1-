@@ -66,7 +66,7 @@ public:
         nmas[number] = el;
         delete[] m_mas;
         m_mas = nmas;
-        m_dl--;
+        m_dl++;
     }
 };
 
